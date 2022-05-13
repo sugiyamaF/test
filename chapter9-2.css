@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+
+main {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  margin:0 auto;
+}
+
+.box1 {
+  width: 300px;
+  margin: 50px 30px 50px 0;
+  background-color: #EEE;
+}
+
+.box-image1 {
+  height: 150px;
+  margin: 10px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+.category1 {
+  color: #FFF;
+  background-color: #FF9A4B;
+  position: absolute;
+  top: 100px;
+}
+
+
+.box2 {
+  width: 300px;
+  margin: 50px 30px 50px 0;
+  background-color: #EEE;
+}
+
+.box-image2 {
+  height: 150px;
+  margin: 10px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+.category2 {
+  color: #FFF;
+  background-color: #FF9A4B;
+  position: absolute;
+  top: 100px;
+}
+
+
+.box3 {
+  width: 300px;
+  margin: 50px auto;
+  background-color: #EEE;
+}
+
+.box-image3 {
+  height: 150px;
+  margin: 10px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+.category3 {
+  color: #FFF;
+  background-color: #FF9A4B;
+  position: absolute;
+  top: 100px;
+}
+
+
+.box-title {
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.box-text {
+  margin: 5px 10px 10px 10px;
+}
+
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #AAAAAA;
+}
+
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .box1 {
+    width: 90%;
+    margin: 50px auto 20px auto;
+    padding: 10px;
+  }
+  
+  .box-image1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.category1 {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+
+.box-title {
+  margin-top: 15px;
+}
+
+.box-text {
+  margin: 5px auto;
+}
+
+
+.box2 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+ .box-image2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+  
+ }
+ 
+ 
+ .category2 {
+    position: absolute;
+    top: 450px;
+    left: 20px;
+  }
+  
+
+ .box3 {
+    width: 90%;
+    margin: 20px auto 50px auto;
+    padding: 10px;
+  }
+  
+ 
+ .box-image3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+  
+ } 
+ 
+ 
+ .category3 {
+  position: absolute;
+  top: 798px;
+  left: 20px;
+}
+ 
+
+  
+}
